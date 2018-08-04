@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller">
+    <children>
+        <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="37.0" prefWidth="409.0" spacing="5.0">
+            <children>
+                <TextField fx:id="value" prefHeight="25.0" prefWidth="100.0">
+                    <font>
+                        <Font name="Arial Black" size="12.0" />
+                    </font></TextField>
+                <ComboBox fx:id="comboBox1" prefWidth="100.0" />
+                <Label prefHeight="25.0" prefWidth="82.0" text="Konwertuj na:" />
+                <ComboBox fx:id="comboBox2" prefWidth="100.0" />
+            </children>
+            <opaqueInsets>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </opaqueInsets>
+            <padding>
+                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="410.0" textAlignment="CENTER" />
+    </children>
+    <padding>
+        <Insets bottom="5.0" />
+    </padding>
+</VBox>
